@@ -57,6 +57,7 @@ function Heading(props) {
                                     label="Add your avatar"
                                     custom
                                 />
+                                <Button className="mt-2 ml-auto">Delete avatar</Button>
                             </div>
                             <div className="ml-auto mr-3">
                                 <Form.Group controlId="formBasicEmail">
