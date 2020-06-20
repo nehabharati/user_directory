@@ -52,15 +52,6 @@ function Heading(props) {
                     <Form onSubmit={onSubmit}>
                         <div className="d-flex justify-content-around">
                             <div className="align-self-center ml-3">
-                                <Figure>
-                                    <Figure.Image
-                                        width={171}
-                                        height={180}
-                                        alt="171x180"
-                                        src="../images/profile.svg"
-                                        rounded
-                                    />
-                                </Figure>
                                 <Form.File
                                     id="custom-file"
                                     label="Add your avatar"
